@@ -1,3 +1,6 @@
+//***comment crap out of this page */
+
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -32,6 +35,7 @@ const getNotes = () =>
       'Content-Type': 'application/json',
     },
   });
+  //^^ like an api call - need route on the back end to respond to it
 
 const saveNote = (note) =>
   fetch('/api/notes', {
@@ -41,6 +45,7 @@ const saveNote = (note) =>
     },
     body: JSON.stringify(note),
   });
+  //^^ will also need a backend response 
 
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
@@ -49,7 +54,7 @@ const deleteNote = (id) =>
       'Content-Type': 'application/json',
     },
   });
-
+///^ more back end responses 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -178,3 +183,6 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+
+//***comment crap out of this page */
