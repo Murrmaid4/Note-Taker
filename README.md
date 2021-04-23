@@ -6,6 +6,8 @@
 
 This note taker application allows users to take down, save and delete notes at their leisure.
 
+Link to app: https://note-taker423.herokuapp.com/
+
 ## Table of Contents 
 
   - [Installation](#installation)
