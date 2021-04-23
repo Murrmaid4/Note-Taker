@@ -22,7 +22,7 @@ This note taker application allows users to take down, save and delete notes at 
 npm i
  
 ## Usage
-After the user selects the get started button on the home page, they are taken to the notes html page where they can enter a new title for the note and then add the contents directly underneath. The user can then click the save icon (floppy disk icon) and it stores to the sidebar on the right of the page. the user is also able to delete their notes using the trash can icon after that note has been saved. 
+After the user selects the get started button on the home page, they are taken to the notes html page where they can enter a new title for the note and then add the contents directly underneath. The user can then click the save icon (floppy disk icon) and store notes to the sidebar on the left side of the page. the user is also able to delete their notes using the trash can icon after that note has been saved. 
  
 ## Questions
   Any questions? Feel free to contact using links below;
