@@ -48,7 +48,7 @@ After the user selects the get started button on the home page, they are taken t
   
 ## Technologies
 
-The tech used on this project include Express, Node.js, Heroku, Github, Javascript, HTML and CSS..
+The tech used on this project include npm Express, Node.js, npm UUID, Heroku, Github, Javascript, HTML and CSS..
 
 ## Contributing
  Git pull request anytime 
